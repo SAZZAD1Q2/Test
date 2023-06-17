@@ -1,7 +1,7 @@
 function stringLength(str) {
   if (str.length < 1 || str.length > 10) {
     
-    throw new Error('String length will be between 1 to 10 characters');
+    throw new Error(' The String length will be between 1 to 10 characters');
   }
   return str.length;
 }
